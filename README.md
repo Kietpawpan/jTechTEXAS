@@ -39,7 +39,7 @@ An analytical device for financial freedom planner & intelligent investor, with 
 ## Users' Guide | J-2305
 
 ***Warning!***
-- jTech<sup>TM</sup> makes no guarantees of the accuracy of this Users' Guide or its suitability for any purposes or the accuracy of calculation results produced by the e-calculator. For more information, see [License](https://github.com/Kietpawpan/jTechTEXAS/blob/main/README.md#license). jTech is not a broker/dealer, nor an investment advisor. No content in this repository should be understood as a recommendation to engage in any of the investment strategies presented in our repository content. We do not provide recommendations or views as to whether a stock or investment approach is suited to the financial needs of other people. We made this device for programming practice only.
+- jTech<sup>TM</sup> makes no guarantees of the accuracy of this Users' Guide or its suitability for any purposes or the accuracy of calculation results produced by the e-calculator. For more information, see [License](https://github.com/Kietpawpan/jTechTEXAS/blob/main/README.md#license). jTech is not a broker/dealer, nor an investment advisor. No content in this repository should be understood as a recommendation to engage in any of the investment strategies presented in our repository content. We do not provide recommendations or views as to whether a stock or investment approach is suited to the financial needs of other people. We made this device for our personal use only.
 
 ### About this Manual  
 - This Users' Guide covers use and calculation rules of the jTech<sup>TM</sup> TEXAS JT-2305.  
