@@ -1,0 +1,198 @@
+/* 
+Copyright (c) 2023 Monte Kietpawpan ("jTech")
+MIT License
+v1.0.2 | May 2, 2023
+
+Modified from 
+https://codepen.io/freeCodeCamp/pen/MeQyjB
+(MIT Licensed | https://blog.codepen.io/
+documentation/terms-of-service/
+designed and coded by Justin Woodward)
+*/
+
+  
+*
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+ 
+input {
+   margin: 0;
+   width:100%;
+   height:45px;
+   background-color:#c3c2ab;
+   border:none;
+   outline:none;
+   text-align:right;
+   font-size:25px;
+   vertical-align:middle;
+}
+
+input::placeholder {
+    font-size:18px;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #818181;
+}
+
+p {
+  font-size:35px
+  }
+
+#answer {
+  font-size:33px;
+  font-weight:bold;
+        }
+ 
+#calculator {
+  height: 600px;
+  width: 300px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  border-radius: 20px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#title {
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+#entrybox {
+  width: 85%;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  background-color: #c3c2ab;
+}
+
+#entry {
+  margin-right: 10px;
+  font-size: 30px;
+  vertical-align:middle;
+}
+
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 27px;
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+  justify-content:center;
+  text-align: -webkit-center;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.row {
+  margin-top: 20px
+}
+
+#topAdjust {
+  margin-top: -52px;
+}
+
+#equalButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 90px;
+}
+
+#zeroButton {
+  width: 117px;
+}
+
+.red {
+  font-size: 14px;
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+.yellow {
+  font-size: 14px;
+  background-color: #daa520;
+  box-shadow: 0px 3px 0px 0px #b8860b;
+}
+
+.blue {
+  font-size: 14px;
+  background-color: #00008b;
+  box-shadow: 0px 3px 0px 0px #00008b;
+}
+
+
+#footer {
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #922031;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#history {
+  /*transform: translate(-13px, -17px);*/
+  position: relative;
+  height: 10px;
+  bottom: 17px;
+  margin-right: 14px;
+  color: #8b8b7b;
+  font-size: 12px;
+}
+
+/*
+.form-inline input {
+  margin: 10px 0px 5px 0;
+  padding: 10px;
+  background-color: #c3c2ab;
+  border: 0px solid #ddd;
+  font-size:30px;
+  width:100%;
+}
+*/
